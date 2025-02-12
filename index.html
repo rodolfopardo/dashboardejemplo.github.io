@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Big Hacks - Agencia SEO</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main>
+    <h1>Big Hacks - Agencia SEO</h1>
+    <p>Dashboard SEO<br><strong>Datos obtenidos por Search Console</strong></p>
+
+    <section class="cols-2">
+      <figure>
+        <p>Gráfico de Barras</p>
+        <h3>Impresiones</h3>
+        <canvas id="myChart" height="400"></canvas>
+        <p>Se observa un crecimiento en los últimos meses de 2024 y principios de 2025.</p>
+      </figure>
+
+      <figure>
+        <p>Línea de tiempo</p>
+        <h3>Engagement Rate</h3>
+        <canvas id="chart2" height="400"></canvas>
+        <p>Se observa un decrecimiento de los usuarios que tienen retención de audiencia en los últimos 15 días.</p>
+      </figure>
+    </section>
+
+    <section class="cols-1">
+      <figure>
+        <p>Área chart</p>
+        <h3>Productos más populares</h3>
+        <canvas id="chart6" height="600"></canvas>
+        <p>Se observa una preferencia durante todo el año de calzados de niños, pero en estos últimos meses se observa un aumento en calzados de hombre.</p>
+      </figure>
+    </section>
+
+    <section class="cols-3">
+      <figure>
+        <p>Gráfico de torta</p>
+        <h3>Tipos de queries con impacto</h3>
+        <canvas id="chart3" height="400"></canvas>
+        <p>Predominan las queries transaccionales.</p>
+      </figure>
+
+      <figure>
+        <p>Barras apiladas</p>
+        <h3>Tópicos populares</h3>
+        <canvas id="chart4" height="400"></canvas>
+      </figure>
+    </section>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+  <script src="js/chartStyles.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
